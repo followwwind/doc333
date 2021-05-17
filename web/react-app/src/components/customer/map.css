@@ -1,0 +1,83 @@
+.map{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    background-color:  #ffb167;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.map .top-bar {
+    width: 100%;
+    background-color: #ffdbb9;
+}
+
+.map .nav-bar {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.map .right-nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.map .icon-btns {
+    background: transparent;
+    border: none;
+    font-size: x-large;
+}
+
+.map .left-icon-btns {
+    margin-left: 20px;
+}
+
+.map .right-icon-btns {
+    margin-right: 20px;
+}
+
+.map .title {
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.map .van-wrapper {
+    width: 900px;
+}
+
+.map .van-item {
+    width: 100%;
+    margin-top: 20px;
+    transition: 0.2s;
+    padding: 10px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #ffdbb9;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.map .van-item:hover {
+    background-color: #ffcc93;
+}
+
+
+@media (max-width: 540px) {
+    .map .icon-btns {
+        font-size: small;
+    }
+}
+
+@media (max-width: 950px) {
+    .map .van-wrapper {
+        width: calc(100% - 50px);
+    }
+}
+

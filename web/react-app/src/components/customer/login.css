@@ -1,0 +1,80 @@
+.login, .register {
+    
+    background-color:  #ffb167;
+    padding-bottom: 5vw;
+}
+
+.form {
+    margin-top: 23vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: 27vw;
+    min-width: 250px;
+}
+
+.register .form {
+    margin-top: 10vh;
+}
+
+.form-group {
+    font-size: 20px;
+    font-weight: 630;
+    align-items: center;
+}
+
+.form-group div {
+    text-align: left;
+}
+
+input {
+    width: 27vw;
+    margin-top: 1vh;
+    margin-bottom: 4vh;
+    min-width: 240px;
+    min-height: 30px;
+    height: 5.5vh;
+    font-size: 18px;
+}
+
+
+
+.login-button:hover {
+    background-color: rgb(253, 253, 197);
+}
+
+
+.register-button:hover {
+    background-color: rgb(253, 253, 197);
+}
+
+.login .signup-button:hover {
+    color: rgb(134, 51, 2);
+}
+
+
+.login-button, .register-button {
+    margin-top: 2vh;
+    font-size: 4vw;
+    height: 8vw;
+    min-height: 5vw;
+    width: 15vw;
+    min-width: 25vw;
+    border-radius: 20vw;
+
+}
+
+.login .signup {
+    margin-top: 6vh;
+}
+
+.login .signup-button, .forget-button {
+    background-color: transparent;
+    border: none;
+    color: #1903e0;
+    text-decoration: underline;
+    font-size: 2.8vh;
+}
+
+.login .forget-button {
+    margin-top: 3vh;
+}

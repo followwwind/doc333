@@ -1,0 +1,96 @@
+
+.menu{
+    background-color:  #ffb167;
+}
+.menu .cart-button {
+    height: 72%;
+}
+
+.menu .page {
+    font-weight: 700;
+    text-align: left;
+    padding-top: 1vh;
+    padding-left: 16%;
+    font-size: 40px;
+    width: 84%;
+}
+
+.menu .menuItems {
+    height: 100%;
+    width: 100%;
+    padding-bottom: 7%;
+}
+
+.menu .menuItem {
+    background-color: #ffdbb9;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3vh;
+    border-radius: 15px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 20vw;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    word-break: keep-all;
+    word-wrap: break-word;
+}
+
+
+.menu .menuImage{
+    width: 15vw;
+    height: 15vw;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 5%;
+    margin-right: 2%;
+    
+}
+
+
+.menu img {
+    margin-left: 6%;
+    margin-right: 2%;
+
+
+}
+
+.menu .itemName {
+    /* padding-top: 7vw;
+    padding-bottom: 7vw; */
+    /* text-align: center; */
+    overflow: hidden;
+    width: 21vw;
+    /* height: 8vh; */
+    line-height: 5vw;
+    font-weight: 600;
+    font-size: 3vw;
+}
+
+.menu .price {
+    /* padding-top: 8vw;
+    padding-bottom: 8vw;
+     */
+    
+    width: 25%;
+    font-size: 3vw;
+}
+
+.menu .detail-button {
+    /* padding-top: 5vw;
+    padding-bottom: 5vw; */
+    background: transparent;
+    border: none;
+    font-size: 3vw;
+    letter-spacing: 1px;
+    outline: none;
+    cursor: pointer;
+}
+
+.menu .detail-button:hover{
+    color:rgb(149, 46, 12);
+}

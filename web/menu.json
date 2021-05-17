@@ -1,0 +1,43 @@
+[
+	{
+		"name": "Cappucinno",
+		"price": "3.50",
+		"img_path": "https://images.unsplash.com/photo-1538587888044-79f13ddd7e49",
+		"description": "Lorem ipsum dolor sit amet"
+	},  {
+		"name": "Latte",
+		"price": "3.50",
+		"img_path": "https://images.unsplash.com/photo-1538587888044-79f13ddd7e49",
+		"description": "Lorem ipsum dolor sit amet"
+	},	{
+		"name": "Flat White",
+		"price": "3.50",
+		"img_path": "https://images.unsplash.com/photo-1538587888044-79f13ddd7e49",
+		"description": "Lorem ipsum dolor sit amet"
+	},	{
+		"name": "Long Black",
+		"price": "3.50",
+		"img_path": "https://images.unsplash.com/photo-1551030173-122aabc4489c",
+		"description": "Lorem ipsum dolor sit amet"
+	},	{
+		"name": "Plain biscuit",
+		"price": "3.50",
+		"img_path": "https://images.unsplash.com/photo-1610897800282-538480405ef0",
+		"description": "Lorem ipsum dolor sit amet"
+	},	{
+		"name": "Fancy Biscuit",
+		"price": "3.50",
+		"img_path": "https://images.unsplash.com/photo-1586464635318-f4f40ecab6fd",
+		"description": "Lorem ipsum dolor sit amet"
+	},	{
+		"name": "Small Cake",
+		"price": "3.50",
+		"img_path": "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e",
+		"description": "Lorem ipsum dolor sit amet"
+	},	{
+		"name": "Big Cake",
+		"price": "5.50",
+		"img_path": "https://images.unsplash.com/photo-1578985545062-69928b1d9587",
+		"description": "Lorem ipsum dolor sit amet"
+	}
+]

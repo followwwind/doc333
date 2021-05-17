@@ -1,0 +1,50 @@
+.van {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.van .van-item {
+
+}
+
+.van .block {
+    margin-left: 19vw;
+    width: 70vw;
+    display: flex;
+    justify-content: left;
+    margin-top: 2.3vh;
+    margin-bottom: 3.5vh;
+    height: auto;
+    min-height: 70px;
+}
+
+.van .block div {
+    text-align: left;
+    margin-left: 3vw;
+    word-wrap: break-word;
+}
+
+.van .block .name {
+    font-size: 19px;
+    font-weight: 600;
+    margin-bottom: 1vh;
+}
+
+.van .line {
+    width: 100%;
+    height: 2px;
+    background-color: #ffdbb9;
+}
+
+.van .proceed-button{
+    font-size: 3vw;
+    font-weight: bold;
+    background-color: beige;
+    border: 0.5px solid rgb(252, 250, 250);
+}
+
+.van .proceed-button:hover{
+    background-color: #ffdbb9;
+}
